@@ -1,0 +1,20 @@
+{
+  "name": "espo20",
+  "version": "1.0.0",
+  "description": "página web para brindar servicios de diseño, desarrrollo web y SEO",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "keywords": [],
+  "author": "Alexander Candia <tony_john_08@hotmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7"
+  },
+  "peerDependencies": {
+    "postcss": "8.0.0"
+  }
+}

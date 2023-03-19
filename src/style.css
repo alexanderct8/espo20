@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+link{
+    @apply text-white block p-3 font-bold text-2xl
+}
+.nav-menu_visible {
+    left: 0;
+    opacity: 1;
+}
+

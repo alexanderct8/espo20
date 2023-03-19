@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es" class>
+<head>
+    <meta charset="UTF-8">
+    <title>espo20</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <meta name="description" content="Espo20, en donde te ayudamos en la digitalización y posicionamiento de tu página web, blog, ecommerce">
+    <meta property="og:title" content="espo20">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#002A5E">
+    <link rel="icon" href="./images/logo.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="mi-estilo    fixed w-full z-30 bg-header mx-auto top-0">
+        <nav class="container bg-header flex lg:flex justify-between items-center mx-auto">
+            <a class=" flex w-auto ml-3 p-1 items-center z-40" href="#home">
+                <img src="./images/logo.svg" class= "w-10 h-10 mr-2" alt="logo de espo20">
+                <h2 class=" text-2xl font-bold text-green-400 uppercase">espo<span class="text-orange-400">20</span></h2>
+            </a>
+            <div class="links">
+                <button aria-label="Abrir menu" class="open-menu w-10 flex items-center p-2 ml-3 text-sm md:hidden  focus:outline-none">
+                    <i class="fa-solid fa-bars text-2xl text-slate-300"></i>
+                </button>
+                <ul class="nav-menu opacity-0 md:opacity-100 flex font-montserrat self-end flex-col z-10 md:flex-row md:relative bg-header text-center w-full pt-12 md:pt-0 md:mt-0 fixed top-0 sm:w-auto h-screen md:h-auto transition-all duration-700 md:left-0 md:transition-none">
+                    <button aria-label="Cerrar menu" class="close-menu w-10 flex items-center p-2 ml-3 text-sm md:hidden focus:outline-none fixed top-0 right-0">
+                        <i class="fa-solid fa-xmark text-3xl text-slate-300"></i>
+                    </button>
+                    <li class="px-2 py-2 text-primary text-xl lg:text-2xl font-montserrat font-semibold"><a class="link" href="#home">Inicio</a></li>
+                    <li class="px-2 py-2 text-primary text-xl lg:text-2xl font-montserrat font-semibold"><a class="link" href="#service">Servicios</a></li>
+                    <li class="px-2 py-2 text-primary text-xl lg:text-2xl font-montserrat font-semibold"><a class="link" href="#project">Proyectos</a></li>  
+                    <li class="px-2 py-2 text-primary text-xl lg:text-2xl font-montserrat font-semibold"><a class="link" href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>   
+    </header>
+
+    <div class="sm:mx-auto sm:container px-6 xl:px-10 mb-8 bg-primary" id="home">
+        <div class="flex items-center justify-between md:flex-row flex-col py-4 space-y-6 md:space-y-0 w-full pt-16">
+            <div class="hidden md:block">
+                <img class="hidden xl:block w-96" src="./images/frontend1.jpg" alt="imagen de frontend" />
+                <img class="xl:hidden w-96" src="./images/frontend1.jpg" alt="frontend" />
+            </div>
+            <div class="flex justify-center items-center flex-col xl:w-2/5 md:px-5 sm:w-3/4 md:w-2/4">
+                <div class="flex">
+                    <h1 class="xl:text-3xl lg:text-2xl md:text-xl text-xl font-semibold text-gray-800 md:leading-4">Transformamos su visión en una poderosa presencia en línea.</h1>
+                </div>
+                <div class="mt-2 sm:flex md:flex-none">
+                    <p class="md:text-base xl:text-xl text-base text-start text-gray-600 font-semibold ">Diseño, desarrollo web y SEO para impulsar su éxito.</p>
+                </div>
+                <div class="flex items-center mt-2 lg:mt-6 xl:mt-6">
+                    <a href="#contact" target="_blank"><button class="text-base font-poppins font-semibold rounded border border-gray-600 bg-orange-400 hover:bg-orange-500 transition-colors duration-700 px-2 py-1">Contactar</button></a>
+                </div>
+            </div>
+            <div class="flex md:w-auto w-full justify-center flex-row space-x-4 md:space-x-0">
+                <div class="w-full ">
+                    <img class="hidden xl:block w-96" src="./images/seo(1).jpg" alt="imagen de seo" />
+                    <img class="xl:hidden w-96" src="./images/seo(1).jpg" alt="imagen de seo" />
+                </div>
+                <div class="md:hidden w-full">
+                    <img class="hidden xl:block w-96" src="./images/frontend1.jpg" alt="imagen de seo" />
+                    <img class="xl:hidden w-96" src="./images/frontend1.jpg" alt="imagen de seo" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mx-auto bg-primary" id="service">
+        <div class="w-full text-center">
+            <h2 class=" text-xl pb-2 xl:text-4xl md:text-3xl font-montserrat font-bold uppercase">Servicios</h2>
+        </div>
+        <div class="flex justify-around my-6 md:flex-row flex-col items-center">
+            <div class="bg-card lg:w-80 w-80 h-80 flex flex-col items-center p-2 mb-2 shadow-2xl md:w-60 border border-gray-500">
+                <figure class="lg:w-72 h-72 md:w-56">
+                    <img class="w-full h-full" src="./images/diseño.png" alt="imagen de diseño">
+                </figure>
+                <a class="w-56 mt-2 py-1 text-center rounded bg-green-400 hover:bg-blue-700 hover:text-primary transition-colors duration-700" href="./design.html">
+                    <span class="font-medium ">Diseño</span>
+                </a>
+            </div>
+            <div class="bg-card lg:w-80 w-80  h-80 flex flex-col items-center p-2 mb-2 shadow-2xl md:w-60 border border-gray-500">
+                <figure class="lg:w-72 w-72 h-72 md:w-56">
+                    <img class="w-full h-full" src="./images/developmet.jpg" alt="imagen de frontend">
+                </figure>
+                <a class="w-56 mt-2 py-1 text-center rounded  bg-green-400 hover:bg-blue-700 hover:text-primary transition-colors duration-700" href="./code.html">
+                    <span class="font-medium">Desarrollo web</span>
+                </a>
+            </div>
+            <div class="bg-card lg:w-80 w-80 h-80 flex flex-col items-center p-2 mb-2 shadow-2xl md:w-60 border border-gray-500">
+                <figure class="lg:w-72 w-72 h-72 md:w-56">
+                    <img class="w-full h-full" src="./images/seo1.jpg" alt="imagen de SEO">
+                </figure>
+                <a class="w-56 mt-2 py-1 text-center rounded bg-green-400 hover:bg-blue-700 hover:text-primary transition-colors duration-700" href="./seo.html">
+                    <span class="font-medium">SEO</span>
+                </a>  
+            </div>
+        </div>
+        
+        <div id="project" class="flex flex-col items-center justify-center container mx-auto h-full py-4 sm:py-8 px-4">
+            <h2 class="text-xl pb-2 xl:text-4xl md:text-3xl font-montserrat font-bold uppercase">proyecto</h2>
+            <div class=" w-full relative flex flex-row items-center justify-center">
+                <button aria-label="slide backward" class="left absolute z-10 left-0 ml-10 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 cursor-pointer" id="prev">
+                    <svg class="dark:text-gray-900" width="20" height="20" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 1L1 7L7 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+                <div class=" w-full h-full mx-auto overflow-x-hidden overflow-y-hidden">
+                    <div id="slider" class="container h-96 flex lg:gap-4 md:gap-2 gap-1 items-center justify-start transition ease-out duration-700">
+                        <a href="https://espofashion.netlify.app" target="_blank" class="card flex flex-shrink-0 relative sm:w-80 h-full">
+                            <img src="./images/fashion.png" class="object-cover object-center w-full" alt="imagen de fashion" />
+                            <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                                <div class="flex h-full items-end ">
+                                    <h3 class="text-xl lg:text-2xl font-bold leading-5 lg:leading-6 text-primary">Fashion</h3>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://espomarketing.netlify.app/" target="_blank" class="card flex flex-shrink-0 relative sm:w-80 h-full">
+                            <img src="./images/marketing.png" class="object-cover object-center w-full" alt="imagen de marketing"/>
+                            <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                                <div class="flex h-full items-end">
+                                    <h3 class="text-xl lg:text-2xl font-bold leading-5 lg:leading-6 text-primary ">Marketing</h3>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://esporestaurant.netlify.app" target="_blank" class="card flex flex-shrink-0 relative w-full sm:w-80 h-full">
+                            <img src="./images/restaurant.png" class="object-cover object-center w-full" alt="imagen de restaurant"/>
+                            <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                                <div class="flex h-full items-end">
+                                    <h3 class="text-xl lg:text-2xl font-bold leading-5 lg:leading-6 text-primary ">Restaurant</h3>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://esporetablo.netlify.app" target="_blank" class="card flex flex-shrink-0 relative sm:w-80 h-full">
+                            <img src="./images/retablo.png" class="object-cover object-center w-full" alt="imagen de retablo"/>
+                            <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                                <div class="flex h-full items-end">
+                                    <h3 class="text-xl lg:text-2xl font-bold leading-5 lg:leading-6 text-primary">Retablo</h3>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://espostore.netlify.app" target="_blank" class="card flex flex-shrink-0 relative sm:w-80 h-full">
+                            <img src="./images/store.png" class="object-cover object-center w-full" alt="imagen de store"/>
+                            <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                                <div class="flex h-full items-end">
+                                    <h3 class="text-xl lg:text-2xl font-bold leading-5 lg:leading-6 text-primary ">Store</h3>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://espotravel.netlify.app" target="_blank" class="card flex flex-shrink-0 relative sm:w-80 h-full">
+                            <img src="./images/travel.png" class="object-cover object-center w-full" alt="imagen de travel"/>
+                            <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                                <div class="flex h-full items-end">
+                                    <h3 class="text-xl lg:text-2xl font-bold leading-5 lg:leading-6 text-primary ">Travel</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <button aria-label="slide forward" class="right absolute z-10 right-0 mr-10 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400" id="next">
+                    <svg class="dark:text-gray-900" width="20" height="20" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div class=" mx-auto pt-4 bg-card mb-2" id="contact">
+            <div class=" w-full text-center mb-4">
+                <h2 class="font-black text-xl md:text-3xl pb-2 xl:text-4xl font-montserrat">Contacto</h2>
+            </div>
+            <div class="flex flex-col md:flex-row justify-evenly w-full pb-8">
+                <div class="h-auto bg-gray-800 border border-gray-500 shadow-xl py-2 md:w-1/3 w-11/12 lg:w-1/4 xl:w-1/5 lg:m-auto 2xl:w-1/6 m-auto">
+                    <div class=" flex flex-col px-7 mx-auto">
+                        <div class="flex-col pb-4 items-center">
+                            <div class="">
+                                <h3 class="text-xl text-green-400 font-montserrat font-bold">Nos encantaria conocerte</h3>
+                            </div>
+                            <p class="text-lg text-primary font-medium font-poppins">Diseñamos, programamos páginas web innovadores de acuerdo a tu tipo de negocio y te posicionamos en los primeros lugares en los buscadores. Deseamos ser parte de tu éxito.</p>
+                        </div>
+                        <div class="w-full items-center flex flex-row">
+                            <div class="flex">
+                                <i class="fa-regular fa-envelope text-xl text-primary"></i>
+                            </div>
+                            <p class="pl-4 text-white text-base">diponegocio@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="flex justify-evenly items-center my-14">
+                        <a href="https://web.facebook.com/developer200" target="_blank" class="">
+                            <i class="fa-brands fa-square-facebook text-primary text-5xl px-2.5 py-2 border border-gray-500 rounded bg-gradient-to-r top-pink-500 from-blue-500 via-blue-700 to-blue-800"></i>
+                        </a>
+                        <a href="https://www.instagram.com/Espo300/" target="_blank" class=" ">
+                            <i class="fa-brands fa-square-instagram text-5xl px-2.5 py-2 border border-gray-500 rounded text-primary bg-gradient-to-r top-pink-500 from-indigo-500 via-purple-500 to-pink-500"></i>
+                        </a>
+                        <a href="#" target="_blank" class="">
+                            <i class="fa-brands fa-square-whatsapp  text-5xl px-2.5 py-2 border border-gray-500 rounded text-primary bg-gradient-to-r top-pink-500 from-green-400 via-green-500 to-green-600"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class=" h-full m-auto md:w-2/4 w-11/12">
+                    <form id="form" class=" w-full bg-gray-800 py-4 md:px-8 px-2 shadow-2xl m-auto mb-2 md:mb-0" action="https://formspree.io/f/xpzblngq" method="POST">
+                        <div class="flex flex-col w-full m-auto">
+                            <div class="w-auto  mb-6">
+                                <div class="flex flex-col">
+                                    <label for="full_name" class="text-white text-base font-poppins font-medium leading-tight tracking-normal mb-2">Nombre</label>
+                                    <input required id="full_name" name="full_name" type="text" class="w-auto dark:bg-gray-900 text-primary focus:outline-none focus:border focus:border-green-400 font-normal h-10 flex items-center pl-3 text-sm border-gray-300 rounded border" placeholder="Nombre" aria-label="enter your full name input" />
+                                </div>
+                            </div>
+                            <div class="w-auto mb-6">
+                                <div class="flex flex-col">
+                                    <label for="email" class="text-white text-base font-poppins font-medium leading-tight tracking-normal mb-2">Email</label>
+                                    <input required id="email" name="email" type="email" class="dark:bg-gray-900 text-primary focus:outline-none focus:border focus:border-green-400 font-normal w-auto h-10 flex items-center pl-3 text-sm border-gray-300 rounded border" placeholder="example@email.com" aria-label="enter your email input" />
+                                </div>
+                            </div>
+                            <div class="w-auto mb-6">
+                                <div class="flex flex-col">
+                                    <label for="phone" class="text-white text-base font-poppins font-medium leading-tight tracking-normal mb-2">Telefono</label>
+                                    <input required id="phone" name="phone" type="tel" class="dark:bg-gray-900 text-primary focus:outline-none focus:border focus:border-green-400 font-normal w-auto h-10 flex items-center pl-3 text-sm border-gray-300 rounded border" placeholder="00-3456789" aria-label="enter your phone number input" />
+                                </div>
+                            </div>
+                            <div class="w-auto">
+                                <div class="flex flex-col">
+                                    <label class="text-white text-base font-poppins font-medium leading-tight tracking-normal mb-2" for="message">Mensaje</label>
+                                    <textarea placeholder="" name="message" class="w-auto dark:bg-gray-900 text-white font-poppins border-gray-300 border rounded mb-4 py-2 text-base outline-none resize-none px-3 focus:border focus:border-green-400" rows="8" id="message" aria-label="enter your message input"></textarea>
+                                </div>
+                                <div class="flex justify-center">
+                                    <button type="submit" class="focus:outline-none bg-green-400 transition duration-500 rounded text-gray-800 font-semibold font-poppins px-6 py-2 text-base ">Enviar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://kit.fontawesome.com/928ef0f656.js" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
